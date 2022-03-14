@@ -6,7 +6,7 @@
 
 body {
     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header {
@@ -19,7 +19,6 @@ body {
 }
 
 .flex {
-    font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: row;
     gap: 3em;
@@ -40,6 +39,7 @@ body {
 .section-title {
     font-size: 2.4em;
     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
     color: hsl(243, 87%, 12%);
 }
 
@@ -82,11 +82,24 @@ body {
 .section-title-2 {
     font-size: 2em;
     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
     color: hsl(243, 87%, 12%);
 }
 
 .section-title-2 p {
     width: 5em;
+}
+
+.see-txt {
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+
+.see-txt:hover {
+    color: hsl(170, 45%, 43%);
+    opacity: 0.7;
 }
 
 .colors {
