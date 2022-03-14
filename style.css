@@ -58,6 +58,10 @@ body {
     width: 17em;
 }
 
+.input::placeholder {
+    font-size: 0.7em;
+}
+
 .get-started {
     width: 13em;
 }
@@ -168,6 +172,19 @@ body {
 
 .section-form {
     width: 25em;
+}
+
+.section-form input::placeholder {
+    font-size: 0.7em;
+}
+
+.section-form button {
+    padding: 0.5em 1.5em;
+    font-size: 0.8em;
+}
+
+.section-form button:hover {
+    opacity: 0.7;
 }
 
 .colors {
