@@ -77,6 +77,7 @@ body {
 .second-section {
     background: hsl(240, 75%, 98%);
     margin-top: 0;
+    padding-bottom: 6em;
 }
 
 .section-title-2 {
@@ -100,6 +101,42 @@ body {
 .see-txt:hover {
     color: hsl(170, 45%, 43%);
     opacity: 0.7;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2em;
+    width: 25em;
+    color: hsl(238, 22%, 44%);
+}
+
+.testimonial-author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.author-img {
+    width: 3em;
+    border-radius: 50%;
+}
+
+.author-details {
+    display: flex;
+    flex-direction: column;
+    color: hsl(238, 22%, 44%);
+}
+
+.author-name {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: hsl(243, 87%, 12%);
+}
+
+.author-position {
+    font-size: 0.7em;
 }
 
 .colors {
