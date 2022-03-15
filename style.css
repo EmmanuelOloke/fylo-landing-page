@@ -209,17 +209,20 @@ footer {
 .phone-mail {
     display: flex;
     flex-direction: column;
+    gap: 1em;
 }
 
 .phone {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 1em;
 }
 
 .mail {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 1em;
 }
 
