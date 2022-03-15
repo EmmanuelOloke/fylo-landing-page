@@ -247,7 +247,7 @@ footer a:hover {
     color: hsl(238, 22%, 44%);
 }
 
-ul li {
+footer ul li {
     display: inline;
     list-style-type: none;
     border: 1px solid hsl(240, 75%, 98%);
@@ -270,12 +270,12 @@ ul li {
     padding: 0em 0.3em 1em 0.2em;
 }
 
-ul li:hover {
+footer ul li:hover {
     color: hsl(238, 22%, 44%);
     border: 1px solid hsl(238, 22%, 44%);
 }
 
-ul li:hover a {
+footer ul li:hover a {
     color: hsl(238, 22%, 44%);
 }
 
