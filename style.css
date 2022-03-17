@@ -8,7 +8,6 @@
 body {
     min-width: 100vw;
     overflow-x: hidden;
-    border: 1px solid red;
 }
 
 .navbar {
@@ -302,12 +301,10 @@ footer ul li a {
     padding: 0em 0.2em 1em 0.1em;
 }
 
-
-/* @media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
     body {
         font-size: 16px;
         font-family: 'Open Sans', sans-serif;
-        max-width: 100vw;
         overflow-x: hidden;
     }
     .header {
@@ -321,31 +318,37 @@ footer ul li a {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        gap: 52em;
+        margin-top: 3em;
         max-width: 1600px;
     }
     .logo {
         width: 7em;
     }
-    .flex {
+    .navbar ul {
         display: flex;
-        flex-direction: row;
         gap: 3em;
-    }
-    .flex a {
-        text-decoration: none;
-        color: hsl(238, 22%, 44%);
+        font-size: 1em;
     }
     .section {
-        margin-top: 5em;
+        margin-top: 1em;
         display: flex;
-        justify-content: center;
+        flex-direction: row;
         align-items: center;
+        text-align: left;
+        gap: 8em;
     }
-    .section-title {
-        font-size: 2.4em;
+    .section-title-1 {
+        font-size: 2.3em;
         font-weight: bold;
         font-family: 'Raleway', sans-serif;
         color: hsl(243, 87%, 12%);
+        margin-bottom: 0.5em;
+    }
+    .section-title-txt {
+        font-size: 1.02em;
+        color: hsl(238, 22%, 44%);
+        margin-bottom: 1em;
     }
     .big-mb {
         margin-bottom: 10em;
@@ -369,24 +372,32 @@ footer ul li a {
         opacity: 0.8;
     }
     .illustration-img {
-        width: 40em;
+        width: 33em;
     }
     .curve-bg {
         width: 100vw;
     }
     .second-section {
         background: hsl(240, 75%, 98%);
-        margin-top: 0;
-        padding-bottom: 6em;
+        margin-top: 0em;
+        padding: 0em 0em 6em 0em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        gap: 5em;
     }
     .section-title-2 {
         font-size: 2em;
         font-weight: bold;
         font-family: 'Raleway', sans-serif;
         color: hsl(243, 87%, 12%);
+        margin-top: 1em;
     }
-    .section-title-2 p {
-        width: 5em;
+    .section-title-2-txt {
+        font-size: 0.85em;
+        width: 30em;
     }
     .see-txt {
         text-decoration: none;
@@ -402,13 +413,13 @@ footer ul li a {
         background-color: #fff;
         border-radius: 5px;
         padding: 2em;
-        width: 25em;
+        width: 29em;
         color: hsl(238, 22%, 44%);
+        margin: 0;
     }
     .testimonial-author {
         display: flex;
         flex-direction: row;
-        align-items: center;
         gap: 0.5em;
     }
     .author-img {
@@ -429,30 +440,41 @@ footer ul li a {
         font-size: 0.7em;
     }
     .third-section {
-        margin-top: 0;
+        margin: 0;
         background-color: hsl(238, 22%, 44%);
         display: flex;
+        flex-direction: row;
         justify-content: center;
-        align-items: center;
-        gap: 2em;
+        gap: 6em;
         padding: 5em 0;
+        text-align: left;
     }
     .section-txt {
+        text-align: left;
         width: 25em;
     }
     .get-access {
         font-family: "Raleway", sans-serif;
         font-weight: bold;
-        font-size: 2em;
+        font-size: 1.7em;
         letter-spacing: 0.05em;
         color: hsl(240, 75%, 98%);
     }
     .get-access-txt {
-        font-size: 0.8em;
+        font-size: 0.9em;
         color: hsl(240, 75%, 98%);
+        text-align: left;
+        width: 31em;
     }
     .section-form {
-        width: 25em;
+        width: 5em;
+    }
+    .get-started-free-input {
+        width: 30em;
+        margin-bottom: 1em;
+    }
+    .get-started-free-button {
+        width: 15em;
     }
     .section-form input::placeholder {
         font-size: 0.7em;
@@ -540,7 +562,7 @@ footer ul li a {
     footer ul li:hover a {
         color: hsl(238, 22%, 44%);
     }
-} */
+}
 
 .colors {
     /*Very Dark Blue*/
