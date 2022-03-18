@@ -345,8 +345,6 @@ footer ul li a {
         align-items: center;
         text-align: left;
         gap: 8em;
-        max-width: 1600px;
-        margin: 0 auto;
     }
     .section-title-1 {
         font-size: 2.3em;
