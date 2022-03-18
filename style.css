@@ -307,6 +307,13 @@ footer ul li a {
         font-family: 'Open Sans', sans-serif;
         overflow-x: hidden;
     }
+    .wide-center {
+        max-width: 1600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
     .header {
         display: flex;
         flex-direction: row;
@@ -316,9 +323,9 @@ footer ul li a {
     .navbar {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        gap: 52em;
+        gap: 57em;
         margin-top: 3em;
         max-width: 1600px;
     }
@@ -334,9 +341,12 @@ footer ul li a {
         margin-top: 1em;
         display: flex;
         flex-direction: row;
+        justify-content: center;
         align-items: center;
         text-align: left;
         gap: 8em;
+        max-width: 1600px;
+        margin: 0 auto;
     }
     .section-title-1 {
         font-size: 2.3em;
@@ -372,7 +382,7 @@ footer ul li a {
         opacity: 0.8;
     }
     .illustration-img {
-        width: 33em;
+        width: 37em;
     }
     .curve-bg {
         width: 100vw;
@@ -386,7 +396,7 @@ footer ul li a {
         justify-content: center;
         align-items: center;
         text-align: left;
-        gap: 5em;
+        gap: 8em;
     }
     .section-title-2 {
         font-size: 2em;
@@ -445,7 +455,7 @@ footer ul li a {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 6em;
+        gap: 8em;
         padding: 5em 0;
         text-align: left;
     }
