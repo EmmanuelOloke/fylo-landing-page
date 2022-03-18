@@ -339,8 +339,8 @@ footer ul li a {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 45em;
-        margin-top: 3em;
+        gap: 48em;
+        margin-top: 2em;
         max-width: 1600px;
     }
     .logo {
@@ -368,9 +368,10 @@ footer ul li a {
         margin-bottom: 0.5em;
     }
     .section-title-txt {
-        font-size: 1.02em;
+        font-size: 1em;
         color: hsl(238, 22%, 44%);
         margin-bottom: 1em;
+        width: 33.5em;
     }
     .big-mb {
         margin-bottom: 10em;
@@ -394,7 +395,7 @@ footer ul li a {
         opacity: 0.8;
     }
     .illustration-img {
-        width: 33em;
+        width: 35em;
     }
     .curve-bg {
         width: 100vw;
@@ -419,7 +420,7 @@ footer ul li a {
     }
     .section-title-2-txt {
         font-size: 0.85em;
-        width: 30em;
+        width: 32em;
     }
     .see-txt {
         text-decoration: none;
@@ -551,13 +552,6 @@ footer ul li a {
         flex-direction: column;
         gap: 1em;
     }
-    footer a {
-        color: hsl(240, 75%, 98%);
-        text-decoration: none;
-    }
-    footer a:hover {
-        color: hsl(238, 22%, 44%);
-    }
     footer ul li {
         display: inline;
         list-style-type: none;
@@ -565,8 +559,17 @@ footer ul li a {
         border-radius: 50%;
         overflow: hidden;
         margin: 0em 0.5em 0em 0.5em;
-        padding: 0.5em 0.5em 0.5em 0.6em;
+        padding: 0.4em 0.5em 0.5em 0.6em;
         font-size: 0.7em;
+    }
+    footer ul li a {
+        color: hsl(240, 75%, 98%);
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+    footer ul li a:hover {
+        color: hsl(238, 22%, 44%);
     }
     .fb {
         padding: 0em 0.2em 0em 0.3em;
@@ -584,19 +587,4 @@ footer ul li a {
     footer ul li:hover a {
         color: hsl(238, 22%, 44%);
     }
-}
-
-.colors {
-    /*Very Dark Blue*/
-    color: hsl(243, 87%, 12%);
-    /*Desaturated Blue*/
-    color: hsl(238, 22%, 44%);
-    /*Bright Blue*/
-    color: hsl(224, 93%, 58%);
-    /*Moderate Cyan*/
-    color: hsl(170, 45%, 43%);
-    /*Light Grayish Blue*/
-    color: hsl(240, 75%, 98%);
-    /*Light Gray*/
-    color: hsl(0, 0%, 75%);
 }
