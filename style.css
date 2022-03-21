@@ -569,6 +569,7 @@ footer ul li a {
         margin: 0em 0.5em 0em 0.5em;
         padding: 0.4em 0.5em 0.5em 0.6em;
         font-size: 0.7em;
+        cursor: pointer;
     }
     footer ul li a {
         color: hsl(240, 75%, 98%);
