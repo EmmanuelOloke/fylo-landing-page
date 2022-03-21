@@ -547,10 +547,18 @@ footer ul li a {
         flex-direction: column;
         gap: 1em;
     }
+    .about a:hover {
+        cursor: pointer;
+        color: hsl(238, 22%, 44%);
+    }
     .contact {
         display: flex;
         flex-direction: column;
         gap: 1em;
+    }
+    .contact a:hover {
+        cursor: pointer;
+        color: hsl(238, 22%, 44%);
     }
     footer ul li {
         display: inline;
